@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset files (only inside the data directory)
+# Keeps documentation and non-dataset project files trackable.
+/data/**/*.csv
+/data/**/*.parquet
+/data/**/*.parquet.gzip
+/data/**/*.feather
+/data/**/*.pkl
+/data/**/*.pickle
+/data/**/*.xlsx
+/data/**/*.xls
+/data/**/*.json
+/data/**/*.zip
+/data/**/*.7z
+/data/**/*.tar
+/data/**/*.gz
+
+# Encoded training and testing datasets
+models/feature_selection/*.npz
